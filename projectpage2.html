@@ -1,31 +1,14 @@
-<body>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects</title>
-</head>
-<body>
- <!-- Navigation Bar -->
-    <nav>
-        <a href="#">Home</a>
-        <a href="projects.html">My Projects</a> <!-- Link to projects page -->
-    </nav>
-    <!-- Page Title -->
-    <h3>My Projects</h3>
 
-    <!-- Container for Projects -->
-    <div class="iframe-container">
-        <iframe src="https://studio.code.org/projects/applab/JBCK1MQtpuWDFegkOcdq7uZ4y1etUsJinvvlSjr2gjU/embed"></iframe>
-        <iframe src="https://studio.code.org/projects/applab/oqMvnN2y-fJ7lGohY2WBh1N_97-aQEXgFtdS1EkRsz4/embed"></iframe>
-        <iframe src="https://studio.code.org/projects/applab/CqiQIsTRmnZrBLt_LJwn8Rg2x87P_1z015aWSTez2Jw/embed"></iframe>
-        <iframe src="https://studio.code.org/projects/applab/ETW7-7src-wX2Oul38tKkbDA83p-X7CxlUaRNdOy86w/embed"></iframe>
-    </div>
-
-</body>
-</html>
-/* Basic Reset */
-        index.html {
+    <!-- Add your CSS inside the style tag -->
+    <style>
+        /* Basic Reset */
+        html {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -62,7 +45,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
-  /* Navbar Style */
+
+        /* Navbar Style */
         nav {
             background-color: #009688; /* Teal background */
             padding: 15px 0;
@@ -81,7 +65,7 @@
             letter-spacing: 1px;
             transition: background-color 0.3s, color 0.3s;
         }
-        
+
         /* Main header style */
         h3 {
             margin-top: 100px;
@@ -98,7 +82,7 @@
             margin-top: 30px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        
+
         /* Adding some animation for the page load */
         .fade-in {
             animation: fadeIn 1.5s ease-out;
@@ -111,7 +95,30 @@
             to {
                 opacity: 1;
             }
-</style>
- 
-    
-           
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="projects.html">My Projects</a> <!-- Link to projects page -->
+    </nav>
+
+    <!-- Page Title -->
+    <h3>My Projects</h3>
+
+    <!-- Container for Projects -->
+    <div class="iframe-container">
+        <iframe src="https://studio.code.org/projects/applab/JBCK1MQtpuWDFegkOcdq7uZ4y1etUsJinvvlSjr2gjU/embed"></iframe>
+        <iframe src="https://studio.code.org/projects/applab/oqMvnN2y-fJ7lGohY2WBh1N_97-aQEXgFtdS1EkRsz4/embed"></iframe>
+        <iframe src="https://studio.code.org/projects/applab/CqiQIsTRmnZrBLt_LJwn8Rg2x87P_1z015aWSTez2Jw/embed"></iframe>
+        <iframe src="https://studio.code.org/projects/applab/ETW7-7src-wX2Oul38tKkbDA83p-X7CxlUaRNdOy86w/embed"></iframe>
+    </div>
+
+</body>
+</html>
+          
+       
